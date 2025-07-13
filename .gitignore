@@ -1,0 +1,29 @@
+# Ignore virtual environment
+django_projects/dj/
+env/
+ENV/
+.venv/
+
+# Bytecode and cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Database files (optional)
+*.sqlite3
+
+# Django media and static files (optional, usually handled by cloud/CDN)
+media/
+staticfiles/
+
+# Environment settings (optional)
+.env
+*.env
+
+# VSCode and IDE folders (optional, helpful)
+.vscode/
+.idea/
+
+# Mac system files (just in case)
+.DS_Store
+
